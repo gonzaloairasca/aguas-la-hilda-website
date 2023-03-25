@@ -19,7 +19,7 @@ export const Carrousel = (props) => {
     if (props.autoPlay || !controls) {
       const interval = setInterval(() => {
         selectNewImage(selectedIndex, products);
-      }, 4000);
+      }, 5000);
       return () => clearInterval(interval);
     }
   });
@@ -50,24 +50,20 @@ export const Carrousel = (props) => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen">
+    <div
+      className={
+        loaded
+          ? "flex flex-col justify-center items-center min-h-screen transition duration-[1000ms] opacity-100 "
+          : "flex flex-col justify-center items-center min-h-screen transition duration-[500ms] opacity-0"
+      }
+    >
       <img
         src={selectedProduct.img}
         alt={selectedProduct.titulo}
-        className={
-          loaded
-            ? "w-5/6 mt-32 ml-4 transition duration-[2000ms] opacity-100 "
-            : "w-5/6 mt-32 ml-4 transition duration-[2000ms] opacity-0"
-        }
+        className="w-5/6 mt-32 ml-4  "
         onLoad={() => setLoaded(true)}
       />
-      <div
-        className={
-          loaded
-            ? "transition duration-[2000ms] opacity-100"
-            : "transition duration-[2000ms] opacity-0"
-        }
-      >
+      <div>
         <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto">
           {selectedProduct.linea}
         </h3>
