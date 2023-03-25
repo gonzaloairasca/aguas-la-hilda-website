@@ -1,6 +1,6 @@
-import sifones from "./assets/images/productosPortada/sifones-portada.png";
-import aguaDosLitros from "./assets/images/productosPortada/agua2litros.png";
-import sodasMedioLitro from "./assets/images/productosPortada/sodasmediolitro.png";
+import sifones from "./assets/images/productosPortada/sifondoslitrosportada.png";
+import aguaDosLitros from "./assets/images/productosPortada/aguadoslitrosportada.png";
+import sodasMedioLitro from "./assets/images/productosPortada/sodamediolitroportada.png";
 
 const data = {
   header: {

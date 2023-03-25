@@ -60,7 +60,7 @@ export const Carrousel = (props) => {
       <img
         src={selectedProduct.img}
         alt={selectedProduct.titulo}
-        className="w-5/6 mt-32 ml-4  "
+        className="w-6/6 mt-24"
         onLoad={() => setLoaded(true)}
       />
       <div>
