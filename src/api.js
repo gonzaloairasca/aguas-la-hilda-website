@@ -9,6 +9,18 @@ import aguaMedioLitro from "./assets/images/productosPortada/aguamediolitroporta
 import bidonSeisLitrosRetornable from "./assets/images/productosPortada/bidonseislitrosportada.png";
 import bidonVeinteLitros from "./assets/images/productosPortada/bidonveintelitrosportada.png";
 import dispenserRed from "./assets/images/productosPortada/dispenserredportada.png";
+//////////////////////////
+import aguaDosLitrosLista from "./assets/images/productosLista/aguaDosLitros.png";
+import aguaMedioLitroLista from "./assets/images/productosLista/aguaMedioLitro.png";
+import BaseBidonLista from "./assets/images/productosLista/BaseBidon.png";
+import BidonDoceLitrosLista from "./assets/images/productosLista/BidonDoceLitros.png";
+import bidonSeisLitrosLista from "./assets/images/productosLista/bidonSeisLitros.png";
+import bidonVeinteLitrosLista from "./assets/images/productosLista/bidonVeinteLitros.png";
+import dispenserLista from "./assets/images/productosLista/dispenser.png";
+import dispenserRedLista from "./assets/images/productosLista/dispenserRed.png";
+import maquinaCafeLista from "./assets/images/productosLista/maquinaCafe.png";
+import sifonDosLitrosLista from "./assets/images/productosLista/sifonDosLitros.png";
+import sodaMedioLitroLista from "./assets/images/productosLista/sodaMedioLitro.png";
 
 const data = {
   header: {
@@ -22,27 +34,27 @@ const data = {
         img: sifones,
       },
       agua2l: {
-        titulo: "AGUA DE 2L",
+        titulo: "AGUA DE 2 LITROS",
         linea: "LINEA DE MESA",
         img: aguaDosLitros,
       },
       sodasMedioLitro: {
-        titulo: "SODAS 1/2 L",
+        titulo: "SODAS 1/2 LITRO",
         linea: "LINEA DE MESA",
         img: sodasMedioLitro,
       },
       aguaMedioLitro: {
-        titulo: "AGUA 1/2 L",
+        titulo: "AGUA 1/2 LITRO",
         linea: "LINEA DE MESA",
         img: aguaMedioLitro,
       },
       bidonSeisLitrosRetornable: {
-        titulo: "BIDÓN 6L",
+        titulo: "BIDÓN DE 6 LITROS",
         linea: "LINEA DE RETORNABLE",
         img: bidonSeisLitrosRetornable,
       },
       bidonVeinteLitros: {
-        titulo: "BIDÓN 20L",
+        titulo: "BIDÓN DE 20 LITROS",
         linea: "LINEA DE RETORNABLE",
         img: bidonVeinteLitros,
       },
@@ -67,11 +79,73 @@ const data = {
         img: bidonSeisLitrosDescartable,
       },
       dispenser: {
-        titulo: "DISPENSER FRÍO-CALOR",
+        titulo: "DISPENSER FRÍO/CALOR",
         linea: "LINEA DE RETORNABLE",
         img: dispenser,
       },
     },
+  },
+  products: {
+    DeMesa: [
+      {
+        titulo: "SODA DE 2 LITROS",
+        linea: "LINEA DE MESA",
+        img: sifonDosLitrosLista,
+      },
+      {
+        titulo: "AGUA DE 2L",
+        linea: "LINEA DE MESA",
+        img: aguaDosLitrosLista,
+      },
+      {
+        titulo: "SODAS 1/2 L",
+        linea: "LINEA DE MESA",
+        img: sodaMedioLitroLista,
+      },
+      {
+        titulo: "AGUA 1/2 L",
+        linea: "LINEA DE MESA",
+        img: aguaMedioLitroLista,
+      },
+      {
+        titulo: "BIDÓN DE 6 LITROS",
+        linea: "LINEA DE MESA",
+        img: bidonSeisLitrosLista,
+      },
+    ],
+    retornables: [
+      {
+        titulo: "DISPENSER FRÍO-CALOR",
+        linea: "LINEA DE RETORNABLE",
+        img: dispenserLista,
+      },
+      {
+        titulo: "MÁQUINA DE CAFÉ CON BIDÓN",
+        linea: "LINEA DE RETORNABLE",
+        img: maquinaCafeLista,
+      },
+      {
+        titulo: "BASE BIDÓN 12/20L",
+        linea: "LINEA DE RETORNABLE",
+        img: BaseBidonLista,
+      },
+      {
+        titulo: "BIDÓN 12L",
+        linea: "LINEA DE RETORNABLE",
+        img: BidonDoceLitrosLista,
+      },
+
+      {
+        titulo: "BIDÓN 20L",
+        linea: "LINEA DE RETORNABLE",
+        img: bidonVeinteLitrosLista,
+      },
+      {
+        titulo: "DISPENSER A RED",
+        linea: "LINEA DE RETORNABLE",
+        img: dispenserRedLista,
+      },
+    ],
   },
 };
 export default data;

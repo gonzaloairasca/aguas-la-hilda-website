@@ -75,7 +75,7 @@ export const Carrousel = (props) => {
         <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto">
           {selectedProduct.linea}
         </h3>
-        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] mt-4 mx-auto shadow-portada">
+        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto shadow-portada">
           {selectedProduct.titulo}
         </h2>
       </div>
