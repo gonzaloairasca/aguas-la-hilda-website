@@ -7,6 +7,14 @@ export const Carrousel = (props) => {
     data.hero.productos.sifones,
     data.hero.productos.agua2l,
     data.hero.productos.sodasMedioLitro,
+    data.hero.productos.aguaMedioLitro,
+    data.hero.productos.bidonSeisLitrosRetornable,
+    data.hero.productos.bidonVeinteLitros,
+    data.hero.productos.baseBidon,
+    data.hero.productos.dispenserRed,
+    data.hero.productos.cafeBidon,
+    data.hero.productos.bidonSeisLitrosDescartable,
+    data.hero.productos.dispenser,
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
