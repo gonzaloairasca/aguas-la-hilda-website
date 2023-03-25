@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .header {
+  background-color: transparent;
+} */
+
+.portada {
+  background: url("./components/hero/fondo-portada-sm.png");
+  background-position: top;
+}
+.f-mplus {
+  font-family: "M PLUS 1", sans-serif;
+}
+.shadow-portada {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text-shadow-separador {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
