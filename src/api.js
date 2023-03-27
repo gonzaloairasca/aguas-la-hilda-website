@@ -6,7 +6,7 @@ import dispenser from "./assets/images/productosPortada/dispenserportada.png";
 import bidonSeisLitrosDescartable from "./assets/images/productosPortada/bidonseislitrosdescartableportada.png";
 import baseBidon from "./assets/images/productosPortada/basebidonportada.png";
 import aguaMedioLitro from "./assets/images/productosPortada/aguamediolitroportada.png";
-import bidonSeisLitrosRetornable from "./assets/images/productosPortada/bidonseislitrosportada.png";
+import bidonSeisLitrosRetornable from "./assets/images/productosPortada/bidondocelitrosportada.png";
 import bidonVeinteLitros from "./assets/images/productosPortada/bidonveintelitrosportada.png";
 import dispenserRed from "./assets/images/productosPortada/dispenserredportada.png";
 //////////////////////////
@@ -49,7 +49,7 @@ const data = {
         img: aguaMedioLitro,
       },
       bidonSeisLitrosRetornable: {
-        titulo: "BIDÓN DE 6 LITROS",
+        titulo: "BIDÓN DE 12 LITROS",
         linea: "LINEA DE RETORNABLE",
         img: bidonSeisLitrosRetornable,
       },

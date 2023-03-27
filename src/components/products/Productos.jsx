@@ -5,8 +5,8 @@ import ProductosRetornables from "./ProductosRetornables";
 
 const Productos = () => {
   return (
-    <section className="pb-10">
-      <h2 className="bg-[#39B5FF] text-shadow-separador w-max  px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-12 mx-auto shadow-portada">
+    <section className="pb-10 pt-10">
+      <h2 className="bg-[#39B5FF] text-shadow-separador w-max ml-4  px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-12 shadow-portada">
         NUESTROS PRODUCTOS
       </h2>
       <div>
