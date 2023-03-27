@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.png";
 import menu from "./menu.svg";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="flex items-center justify-between bg-white fixed top-0 left-0 right-0">
       <img
@@ -19,3 +19,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

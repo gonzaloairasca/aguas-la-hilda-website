@@ -1,8 +1,8 @@
 import "./App.css";
-import { Header } from "./components/header/Header";
-import { Carrousel } from "./components/hero/carrousel/Carrousel";
+import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Productos from "./components/products/Productos";
+import SeDistribuidor from "./components/seDistribuidor/SeDistribuidor";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <Productos />
+      <SeDistribuidor />
     </div>
   );
 }
