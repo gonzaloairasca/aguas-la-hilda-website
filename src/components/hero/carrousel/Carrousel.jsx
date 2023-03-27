@@ -61,8 +61,8 @@ export const Carrousel = (props) => {
     <div
       className={
         loaded
-          ? "flex flex-col justify-center items-center min-h-screen transition duration-[1000ms] opacity-100 "
-          : "flex flex-col justify-center items-center min-h-screen transition duration-[500ms] opacity-0"
+          ? "flex flex-col justify-center items-center  transition duration-[1000ms] opacity-100 "
+          : "flex flex-col justify-center items-center  transition duration-[500ms] opacity-0"
       }
     >
       <img

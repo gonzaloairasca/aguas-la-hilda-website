@@ -11,6 +11,7 @@
 .portada {
   background: url("./components/hero/fondo-portada-sm.png");
   background-position: top;
+  background-repeat: no-repeat;
 }
 .bg-seDistribuidor {
   background: url("./components/seDistribuidor/fondo.png");
