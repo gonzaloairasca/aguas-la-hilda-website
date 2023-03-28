@@ -10,7 +10,7 @@ import bidonVeinteLitrosRetornable from "./assets/images/productosPortada/bidonv
 import bidonVeinteLitrosConBase from "./assets/images/productosPortada/bidonveintelitrosconbaseportada.png";
 import bidonVeinteLitrosConPico from "./assets/images/productosPortada/bidonveintelitrosconpicoportada.png";
 import dispenserRed from "./assets/images/productosPortada/dispenserredportada.png";
-//////////////////////////
+////////////////////////////////////////////////////
 import aguaDosLitrosLista from "./assets/images/productosLista/aguaDosLitros.png";
 import aguaMedioLitroLista from "./assets/images/productosLista/aguaMedioLitro.png";
 import BaseBidonLista from "./assets/images/productosLista/BaseBidon.png";
