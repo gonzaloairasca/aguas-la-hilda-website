@@ -17,11 +17,12 @@ const Footer = () => {
           5937318
         </h5>
         <h6 className="text-sm text-center font-light text-blue-200 px-4 mt-4">
-          AGUAS LA HILDA © 2023 | DISEÑO Y DESARROLLO WEB{" "}
+          AGUAS LA HILDA © 2023 | DISEÑO Y DESARROLLO WEB
           <a className="underline" href="https://gonzaloairascaweb.com.ar">
             {">>"}GONZALO AIRASCA WEB
           </a>
         </h6>
+        <div></div>
       </div>
     </footer>
   );

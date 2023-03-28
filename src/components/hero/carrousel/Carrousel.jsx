@@ -8,8 +8,9 @@ export const Carrousel = (props) => {
     data.hero.productos.agua2l,
     data.hero.productos.sodasMedioLitro,
     data.hero.productos.aguaMedioLitro,
-    data.hero.productos.bidonSeisLitrosRetornable,
-    data.hero.productos.bidonVeinteLitros,
+    data.hero.productos.bidonVeinteLitrosConBase,
+    data.hero.productos.bidonVeinteLitrosConPico,
+    data.hero.productos.bidonVeinteLitrosRetornable,
     data.hero.productos.baseBidon,
     data.hero.productos.dispenserRed,
     data.hero.productos.cafeBidon,
@@ -61,7 +62,7 @@ export const Carrousel = (props) => {
     <div
       className={
         loaded
-          ? "flex flex-col justify-center items-center  transition duration-[1000ms] opacity-100 "
+          ? "flex flex-col justify-center items-center  transition duration-[1000ms] opacity-100"
           : "flex flex-col justify-center items-center  transition duration-[500ms] opacity-0"
       }
     >
@@ -72,9 +73,13 @@ export const Carrousel = (props) => {
         onLoad={() => setLoaded(true)}
       />
       <div>
-        <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto">
-          {selectedProduct.linea}
-        </h3>
+        {selectedProduct.linea ? (
+          <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto">
+            {selectedProduct.linea}
+          </h3>
+        ) : (
+          <></>
+        )}
         <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto shadow-portada">
           {selectedProduct.titulo}
         </h2>
