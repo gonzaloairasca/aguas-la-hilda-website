@@ -21,7 +21,7 @@ import dispenserRedLista from "./assets/images/productosLista/dispenserRed.png";
 import maquinaCafeLista from "./assets/images/productosLista/maquinaCafe.png";
 import sifonDosLitrosLista from "./assets/images/productosLista/sifonDosLitros.png";
 import sodaMedioLitroLista from "./assets/images/productosLista/sodaMedioLitro.png";
-import bidonVeinteLitroLisoLista from "./assets/images/productosLista/bidonVeinteLitrosSolo.png";
+import bidonVeinteLitroLisoLista from "./assets/images/productosLista/BidonVeinteLitrosSolo.png";
 
 const data = {
   header: {
