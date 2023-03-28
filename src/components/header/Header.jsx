@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import logo from "./logo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import arrow from "./arrow.svg";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
+  const [productosNav, setProductosNav] = useState(false);
+
   return (
     <header className="flex items-center justify-between bg-white fixed top-0 left-0 right-0 z-50">
       <img
@@ -49,9 +52,28 @@ const Header = () => {
               </li>
               <li
                 className="p-3 border-b-2 border-b-teal-200"
-                onClick={() => setNav(false)}
+                onClick={() => setProductosNav(!productosNav)}
               >
-                <a href="#queOfrecemos">Productos</a>
+                <div className="flex justify-between items-center mr-4">
+                  <p>Productos</p>
+                  <img
+                    className="h-4"
+                    src={arrow}
+                    alt="flecha abrir productos"
+                  />
+                </div>
+                <ul
+                  className={
+                    productosNav ? "pl-4 pt-1 block" : "pl-4 pt-1 hidden"
+                  }
+                >
+                  <li className="p-2">Producto</li>
+                  <li className="p-2">Producto</li>
+                  <li className="p-2">Producto</li>
+                  <li className="p-2">Producto</li>
+                  <li className="p-2">Producto</li>
+                  <li className="p-2">Producto</li>
+                </ul>
               </li>
               <li
                 className="p-3 border-b-2 border-b-teal-200"
