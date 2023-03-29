@@ -1,6 +1,6 @@
 import React from "react";
 import divisor from "./divisor.png";
-import { Carrousel } from "./carrousel/Carrousel";
+import Carrousel from "./carrousel/Carrousel";
 
 const Hero = () => {
   return (

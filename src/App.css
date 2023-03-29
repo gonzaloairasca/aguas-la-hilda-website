@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=M+PLUS+1:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=M+PLUS+1:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +12,13 @@
   background-position: top;
   background-repeat: no-repeat;
 }
+
+.portadaLg {
+  background: url("./components/hero/fondo-portada-lg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 .bg-seDistribuidor {
   background: url("./components/seDistribuidor/fondo.png");
   background-position: 65% 50%;
@@ -25,6 +32,9 @@
 }
 .f-Alex-Brush {
   font-family: "Alex Brush", cursive;
+}
+.f-montserrat {
+  font-family: "Montserrat", sans-serif;
 }
 .shadow-portada {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -46,4 +56,13 @@
 
 .textstroke {
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.445);
+}
+
+@media (min-width: 768px) {
+  .portada {
+    background: url("./components/hero/fondo-portada-lg.png");
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }

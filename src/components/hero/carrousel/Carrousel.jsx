@@ -2,7 +2,7 @@ import React from "react";
 import data from "../../../api";
 import { useState, useEffect } from "react";
 
-export const Carrousel = (props) => {
+const Carrousel = (props) => {
   const products = [
     data.hero.productos.sifones,
     data.hero.productos.agua2l,
@@ -62,25 +62,25 @@ export const Carrousel = (props) => {
     <div
       className={
         loaded
-          ? "flex flex-col justify-center items-center  transition duration-[1000ms] opacity-100"
-          : "flex flex-col justify-center items-center  transition duration-[500ms] opacity-0"
+          ? "flex flex-col md:flex-row justify-center md:gap-4 items-center md:items-center  transition duration-[1000ms] opacity-100"
+          : "flex flex-col md:flex-row justify-center md:gap-4 items-center md:items-center transition duration-[500ms] opacity-0"
       }
     >
       <img
         src={selectedProduct.img}
         alt={selectedProduct.titulo}
-        className="w-6/6 mt-24"
+        className="w-6/6 mt-24 md:w-3/12 md:mr-8"
         onLoad={() => setLoaded(true)}
       />
-      <div>
+      <div className="md:w-4/12 md:flex md:flex-col md:items-start">
         {selectedProduct.linea ? (
-          <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto">
+          <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto md:mx-0">
             {selectedProduct.linea}
           </h3>
         ) : (
           <></>
         )}
-        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto shadow-portada">
+        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto md:mx-0 shadow-portada">
           {selectedProduct.titulo}
         </h2>
       </div>
@@ -97,3 +97,5 @@ export const Carrousel = (props) => {
     </div>
   );
 };
+
+export default Carrousel;
