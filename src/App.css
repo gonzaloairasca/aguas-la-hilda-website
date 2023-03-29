@@ -26,6 +26,7 @@
 .bg-productosRetornables {
   background: url("./components/products/fondoProductoRetornable.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .f-mplus {
   font-family: "M PLUS 1", sans-serif;
@@ -64,5 +65,10 @@
     background-position: 35% 20%;
     background-size: 110%;
     background-repeat: no-repeat;
+  }
+  .bg-productosRetornables {
+    background: url("./components/products/fondoProductoRetornableLg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
