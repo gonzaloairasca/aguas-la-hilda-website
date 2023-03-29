@@ -61,8 +61,8 @@
 @media (min-width: 768px) {
   .portada {
     background: url("./components/hero/fondo-portada-lg.png");
-    background-position: 50% 30%;
-    background-size: cover;
+    background-position: 35% 20%;
+    background-size: 110%;
     background-repeat: no-repeat;
   }
 }

@@ -69,20 +69,27 @@ const Carrousel = (props) => {
       <img
         src={selectedProduct.img}
         alt={selectedProduct.titulo}
-        className="w-6/6 mt-24 md:w-3/12 md:mr-8"
+        className="w-6/6 mt-24 md:w-4/12 "
         onLoad={() => setLoaded(true)}
       />
-      <div className="md:w-4/12 md:flex md:flex-col md:items-start">
+      <div className="md:w-4/12 md:flex md:flex-col md:items-start md:mt-32 md:pl-14">
         {selectedProduct.linea ? (
-          <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto md:mx-0">
+          <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto md:mx-0 md:mb-1 lg:text-base">
             {selectedProduct.linea}
           </h3>
         ) : (
           <></>
         )}
-        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto md:mx-0 shadow-portada">
+        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto md:mx-0 shadow-portada lg:text-3xl">
           {selectedProduct.titulo}
         </h2>
+        {window.visualViewport.width > 1024 ? (
+          <h4 className="f-montserrat text-[#044F98] font-semibold text-xl mt-4">
+            <i>Productos pensados para tu hogar y tu negocio.</i>
+          </h4>
+        ) : (
+          <></>
+        )}
       </div>
       <div>
         {props.controls ? (

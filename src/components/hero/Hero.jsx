@@ -1,14 +1,19 @@
 import React from "react";
 import divisor from "./divisor.png";
+import divisorLg from "./divisor-lg.png";
 import Carrousel from "./carrousel/Carrousel";
 
 const Hero = () => {
   return (
-    <main className="portada mt-8">
+    <main className="portada">
       <Carrousel autoPlay={true} controls={false} />
       <div className="relative top-10">
-        <img src={divisor} alt="" />
-        <h3 className="text-white f-mplus font-medium italic text-xl px-12 absolute top-12 text-shadow-separador ">
+        <img
+          src={window.visualViewport.width > 768 ? divisorLg : divisor}
+          className="w-full"
+          alt="divisor"
+        />
+        <h3 className="text-white f-mplus font-medium italic text-xl px-12 lg:left-80 lg:top-16 md:text-3xl text-center absolute top-12 text-shadow-separador ">
           Agua saludable para tu mesa y tu negocio.
         </h3>
       </div>

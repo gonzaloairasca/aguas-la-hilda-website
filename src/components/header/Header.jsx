@@ -11,8 +11,8 @@ const Header = () => {
   const [productosNav, setProductosNav] = useState(false);
 
   return (
-    <header className=" bg-white fixed top-0 left-0 right-0 z-50  ">
-      <nav className="flex items-center justify-between lg:justify-around">
+    <header className=" absolute z-50 top-0 right-0 left-0 bg-transparent ">
+      <nav className="flex items-center justify-between lg:justify-around md:h-24">
         <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold text-[#044F98]">
           <li>INCIO</li>
           <li>PRODUCTOS</li>
@@ -21,7 +21,7 @@ const Header = () => {
         <img
           src={logo}
           alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
-          className="h-32 ml-2 md:ml-0 "
+          className="h-32 lg:h-40 ml-2 md:ml-0 md:relative md:mb-[-60px]"
         />
         <img
           src={menu}
@@ -36,12 +36,11 @@ const Header = () => {
           <img src={Linea} alt="linea separadora" />
           <Redes />
         </div>
-
         <div
           className={
             nav
-              ? "absolute md:hidden right-0 top-0 h-screen w-full bg-[#ffffffc0] font-semibold transition duration-[1000ms] opacity-100"
-              : "absolute md:hidden translate-x-96 right-0 top-0 h-screen w-full transition duration-[1000ms]  opacity-0"
+              ? "fixed  right-0 top-0  h-screen w-full bg-[#ffffffc0] font-semibold transition duration-[1000ms] translate-x-0 opacity-100"
+              : "fixed translate-x-96 right-0 top-0 h-screen w-full md:hidden transition duration-[1000ms]  opacity-0"
           }
         >
           <div className="flex justify-end">
