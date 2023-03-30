@@ -13,7 +13,7 @@ const Productos = () => {
         <h4 className="bg-[#39B5FF] text-shadow-separador w-max f-mplus font-bold text-xs text-white rounded-[3px] p-1 shadow-portada mx-4 mt-12 mb-4 lg:ml-12 lg:text-base">
           LINEA DE MESA
         </h4>
-        <div className="flex flex-wrap justify-around pb-8 text-blue-900">
+        <div className="flex flex-wrap justify-around pb-8 lg:justify-start  text-blue-900">
           <ProductosDeMesa data={data} />
         </div>
       </div>
@@ -21,7 +21,7 @@ const Productos = () => {
         <h3 className="bg-[#39B5FF] text-shadow-separador w-max f-mplus font-bold text-xs text-white rounded-[3px] p-1 shadow-portada  mx-4 mt-12 mb-4 lg:ml-12 lg:text-base">
           LINEA RETORNABLE
         </h3>
-        <div className="flex flex-wrap justify-around text-blue-900">
+        <div className="flex flex-wrap justify-around lg:justify-start  text-blue-900">
           <ProductosRetornables data={data} />
         </div>
       </div>

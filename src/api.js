@@ -22,6 +22,7 @@ import maquinaCafeLista from "./assets/images/productosLista/maquinaCafe.png";
 import sifonDosLitrosLista from "./assets/images/productosLista/sifonDosLitros.png";
 import sodaMedioLitroLista from "./assets/images/productosLista/sodaMedioLitro.png";
 import bidonVeinteLitroLisoLista from "./assets/images/productosLista/BidonVeinteLitrosSolo.png";
+import bidonVeinteLitrosConBaseLista from "./assets/images/productosLista/BidonVeinteLitrosConBase.png";
 
 const data = {
   header: {
@@ -126,18 +127,6 @@ const data = {
     ],
     retornables: [
       {
-        titulo: "Dispenser Frío/Calor",
-        linea: "LINEA RETORNABLE",
-        img: dispenserLista,
-        id: "9Pif2#I&nWHN&Z6rxWfv",
-      },
-      {
-        titulo: "Máquina de café con bidón",
-        linea: "LINEA RETORNABLE",
-        img: maquinaCafeLista,
-        id: "&NMG!odIRk2W3Q02#@V8",
-      },
-      {
         titulo: "Base de mesa",
         linea: "LINEA RETORNABLE",
         img: BaseBidonLista,
@@ -156,12 +145,37 @@ const data = {
         id: "9iS264T4u67x@YD&&jm#",
       },
       {
+        titulo: "Bidón 20lt con base",
+        linea: "LINEA RETORNABLE",
+        img: bidonVeinteLitrosConBaseLista,
+        id: "KrfbxG3PfE62!EgV#r*0",
+      },
+      {
         titulo: "Dispenser a red",
         linea: "LINEA RETORNABLE",
         img: dispenserRedLista,
         id: "EBHF7J@6orq14zDAeIT$",
       },
+      {
+        titulo: "Máquina de café con bidón",
+        linea: "LINEA RETORNABLE",
+        img: maquinaCafeLista,
+        id: "&NMG!odIRk2W3Q02#@V8",
+      },
+      {
+        titulo: "Dispenser Frío/Calor",
+        linea: "LINEA RETORNABLE",
+        img: dispenserLista,
+        id: "9Pif2#I&nWHN&Z6rxWfv",
+      },
     ],
+    dispensers: [],
   },
 };
+
+function getProductDeMesa(id) {
+  const producto = data.products.DeMesa.filter((product) => product.id === id);
+  return producto;
+}
+
 export default data;
