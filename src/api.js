@@ -22,7 +22,7 @@ import maquinaCafeLista from "./assets/images/productosLista/maquinaCafe.png";
 import sifonDosLitrosLista from "./assets/images/productosLista/sifonDosLitros.png";
 import sodaMedioLitroLista from "./assets/images/productosLista/sodaMedioLitro.png";
 import bidonVeinteLitroLisoLista from "./assets/images/productosLista/BidonVeinteLitrosSolo.png";
-import bidonVeinteLitrosConBaseLista from "./assets/images/productosLista/BidonVeinteLitrosConBase.png";
+import bidonVeinteLitrosConBaseLista from "./assets/images/productosLista/bidonVeinteLitrosConBase.png";
 
 const data = {
   header: {
