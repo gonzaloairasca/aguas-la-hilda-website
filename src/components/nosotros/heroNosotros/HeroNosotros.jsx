@@ -6,12 +6,12 @@ import ImgTres from "./nosotros-img3.jpg";
 const HeroNosotros = () => {
   return (
     <section className="mt-24">
-      <div className="h-64 banner flex items-center">
-        <h1 className="f-montserrat font-extrabold text-2xl text-center mx-auto text-white text-shadow px-3">
+      <div className="h-64 md:h-96 banner flex items-center">
+        <h1 className="f-montserrat font-extrabold text-2xl lg:text-5xl text-center mx-auto text-white text-shadow px-3">
           Trayectoria, experiencia y responsabilidad.
         </h1>
       </div>
-      <div className="px-8 mt-8">
+      <div className="px-8 mt-8 lg:px-16">
         <h2 className="font-semibold text-lg text-zinc-900	">
           Somos La Hilda, una empresa que produce agua mineral.
         </h2>
@@ -31,25 +31,25 @@ const HeroNosotros = () => {
           liviana, con los minerales justos que el cuerpo necesita
         </p>
       </div>
-      <div className="">
+      <div className=" lg:flex lg:justify-between lg:gap-3 lg:px-16 lg:mt-8">
         <img
           src={Img}
           alt="imagen la planta potabilizadora la hilda"
-          className="p-8"
+          className="p-8 lg:p-0 lg:w-[32%]"
         />
         <img
           src={ImgDos}
           alt="imagen la planta potabilizadora la hilda"
-          className="px-8"
+          className="px-8 lg:p-0 lg:w-[32%]"
         />
         <img
           src={ImgTres}
           alt="imagen la planta potabilizadora la hilda"
-          className="p-8"
+          className="p-8 lg:p-0 lg:w-[32%]"
         />
       </div>
       <div className="border-dotted border-t-2 border-b-2 my-8 mx-8">
-        <p className="italic f-montserrat font-semibold text-zinc-700 text-xl p-8 text-center">
+        <p className="italic f-montserrat font-semibold text-zinc-700 text-xl p-8 mb-8 text-center">
           "Productos de calidad para tu mesa y tu negocio."
         </p>
       </div>
