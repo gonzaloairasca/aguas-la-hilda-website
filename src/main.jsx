@@ -5,9 +5,9 @@ import ProductDetail from "./components/productDetail/ProductDetail";
 import Contacto from "./components/contacto/Contacto";
 import Nosotros from "./components/nosotros/Nosotros";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
