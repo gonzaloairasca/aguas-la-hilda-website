@@ -1,7 +1,12 @@
 import React from "react";
+import HeaderSecundario from "../header/HeaderSecundario";
 
 const Contacto = () => {
-  return <div>Contacto</div>;
+  return (
+    <>
+      <HeaderSecundario />
+    </>
+  );
 };
 
 export default Contacto;

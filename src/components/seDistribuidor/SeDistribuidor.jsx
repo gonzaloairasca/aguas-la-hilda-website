@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import wsp from "./whatsapp.svg";
 
 const SeDistribuidor = () => {
@@ -19,10 +20,15 @@ const SeDistribuidor = () => {
             <p className="px-3 lg:text-2xl">
               Unite a nuestro equipo y trabaja con nosotros!
             </p>
-            <button className="bg-[#39B5FF] py-2 px-3 m-3 text-white font-bold flex items-center rounded-xl shadow-elementos hover:bg-[#2d8dc5] lg:text-2xl lg:mt-8">
-              <img className="pr-1 lg:h-12 " src={wsp} alt="wsp icon" />
-              CONTACTANOS
-            </button>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5493515937318&text=Hola,%20quiero%20consultar%20para%20ser%20distribuidor"
+              target="_blank"
+            >
+              <button className="bg-[#39B5FF] py-2 px-3 m-3 text-white font-bold flex items-center rounded-xl shadow-elementos hover:bg-[#2d8dc5] lg:text-2xl lg:mt-8">
+                <img className="pr-1 lg:h-12 " src={wsp} alt="wsp icon" />
+                CONTACTANOS
+              </button>
+            </a>
           </div>
         </div>
       </div>

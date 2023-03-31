@@ -7,13 +7,13 @@ import SeDistribuidor from "./components/seDistribuidor/SeDistribuidor";
 
 function App() {
   return (
-    <div className="">
+    <>
       <Header />
       <Hero />
       <Productos />
       <SeDistribuidor />
       <Footer />
-    </div>
+    </>
   );
 }
 

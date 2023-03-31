@@ -7,14 +7,19 @@ import arrow from "./arrow.svg";
 import Redes from "../redes/Redes";
 import Linea from "./lineaseparadora.svg";
 
-const Header = () => {
+const HeaderSecundario = () => {
   const [nav, setNav] = useState(false);
   const [productosNav, setProductosNav] = useState(false);
 
   return (
-    <header className=" absolute z-50 top-0 right-0 left-0 bg-transparent ">
-      <nav className="flex items-center justify-between lg:justify-around md:h-24">
-        <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold text-[#044F98]">
+    <header className="absolute z-50 top-0 right-0 left-0 bg-transparent ">
+      <nav className="flex justify-between items-center md:h-24">
+        <img
+          src={logo}
+          alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
+          className="h-24  ml-2 hidden md:block"
+        />
+        <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold text-[#044F98] lg:pr-60">
           <li>
             <Link to={"/"}>INCIO</Link>
           </li>
@@ -22,25 +27,23 @@ const Header = () => {
           <li>
             <Link to={"/nosotros"}>NOSOTROS </Link>
           </li>
+          <Link to={"/contacto"}>CONTACTENOS</Link>
         </ul>
+        <div className=" hidden md:flex gap-10 items-center mr-10">
+          <img src={Linea} alt="linea separadora" className="mr-6 opacity-30" />
+          <Redes />
+        </div>
         <img
           src={logo}
           alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
-          className="h-32 lg:h-40 ml-2 md:ml-0 md:relative md:mb-[-60px]"
+          className="h-24  ml-2 md:hidden"
         />
         <img
           src={menu}
           alt="menu de navegacion aguas la hilda cordoba distribucion en todas las sierras"
-          className="px-7 h-8 md:hidden"
+          className="px-7 h-6 md:hidden"
           onClick={() => setNav(!nav)}
         />
-        <div className=" hidden md:flex gap-10 items-center">
-          <ul className=" f-montserrat font-semibold text-[#044F98]">
-            <Link to={"/contacto"}>CONTACTENOS</Link>
-          </ul>
-          <img src={Linea} alt="linea separadora" />
-          <Redes />
-        </div>
         <div
           className={
             nav
@@ -116,4 +119,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderSecundario;
