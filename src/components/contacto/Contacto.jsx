@@ -11,11 +11,13 @@ const Contacto = () => {
     <>
       <HeaderSecundario />
       <SectionContacto />
-      <section className="flex flex-col items-center lg:flex-row lg:justify-center ">
+      <section className="flex flex-col items-center lg:flex-row lg:justify-around ">
         <Formulario />
-        <InfoContacto />
-        <div className="py-4 mb-16">
-          <Redes celeste={true} />
+        <div className=" flex flex-col">
+          <InfoContacto />
+          <div className="py-4 mb-16 mx-auto">
+            <Redes celeste={true} />
+          </div>
         </div>
       </section>
       <Footer />

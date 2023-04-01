@@ -10,7 +10,12 @@ const Formulario = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service", "template", form.current, "UnRhwKV7_QkI4hiAt")
+      .sendForm(
+        "service_1tzcm66",
+        "template_6wshiyn",
+        form.current,
+        "yUJZnFbSFqgXHoge4"
+      )
       .then(
         (result) => {
           console.log(result.text);
