@@ -64,6 +64,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.bannerContacto {
+  background: url("./components/contacto/sectionContacto/contacto-banner2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 @media (min-width: 768px) {
   .portada {

@@ -28,7 +28,7 @@ const HeroNosotros = () => {
           sido cuidadosamente purificada para eliminar los contaminantes
           físicos, químicos y biológicos que pudieran estar presentes. Logrando
           calidad en nuestro producto, caracterizado por se un agua fina y
-          liviana, con los minerales justos que el cuerpo necesita
+          liviana, con los minerales justos que el cuerpo necesita.
         </p>
       </div>
       <div className=" lg:flex lg:justify-between lg:gap-3 lg:px-16 lg:mt-8">
