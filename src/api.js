@@ -99,6 +99,8 @@ const data = {
       img: sifonDosLitrosLista,
       id: "1H!x40@YaC#5Q1fNGqzL",
       ruta: "pack-soda-sifon-2lt",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Agua 2 lt",
@@ -106,6 +108,8 @@ const data = {
       img: aguaDosLitrosLista,
       id: "8xHZCN&!21fn6b8%R0*0",
       ruta: "pack-agua-2lt",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Soda 500cc",
@@ -113,6 +117,8 @@ const data = {
       img: sodaMedioLitroLista,
       id: "DVq86@qd8$ki6CdYOGh!",
       ruta: "pack-soda-500cc",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Agua 500cc",
@@ -120,6 +126,8 @@ const data = {
       img: aguaMedioLitroLista,
       id: "hw1SF#5lCoNHih8C!HcU",
       ruta: "pack-agua-500cc",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Bidón 6lt",
@@ -127,6 +135,8 @@ const data = {
       img: bidonSeisLitrosLista,
       id: "T7VA0RUNmJ!pi6bNq0o^",
       ruta: "bidon-6lt",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Base de mesa",
@@ -134,6 +144,8 @@ const data = {
       img: BaseBidonLista,
       id: "674Sm%^g6uA%jX80Yseo",
       ruta: "base-de-mesa",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Bidón 20lt con pico",
@@ -141,6 +153,8 @@ const data = {
       img: bidonVeinteLitrosLista,
       id: "Vrye&^t4k1R79XQ9nBYl",
       ruta: "bidon-20lt-con-pico",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Bidón 20lt",
@@ -148,6 +162,8 @@ const data = {
       img: bidonVeinteLitroLisoLista,
       id: "9iS264T4u67x@YD&&jm#",
       ruta: "bidon-20lt",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Bidón 20lt con base",
@@ -155,6 +171,8 @@ const data = {
       img: bidonVeinteLitrosConBaseLista,
       id: "KrfbxG3PfE62!EgV#r*0",
       ruta: "bidon-20lt-con-base",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Dispenser a red",
@@ -162,6 +180,8 @@ const data = {
       img: dispenserRedLista,
       id: "EBHF7J@6orq14zDAeIT$",
       ruta: "dispenser-a-red",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Máquina de café con bidón",
@@ -169,6 +189,8 @@ const data = {
       img: maquinaCafeLista,
       id: "&NMG!odIRk2W3Q02#@V8",
       ruta: "maquina-de-cafe-con-bidon",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
     {
       titulo: "Dispenser Frío/Calor",
@@ -176,6 +198,8 @@ const data = {
       img: dispenserLista,
       id: "9Pif2#I&nWHN&Z6rxWfv",
       ruta: "dispenser-frio-calor",
+      descripcion:
+        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
   ],
 };

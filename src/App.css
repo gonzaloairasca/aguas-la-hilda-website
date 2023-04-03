@@ -71,6 +71,24 @@
   background-repeat: no-repeat;
 }
 
+/*ESTILOS PRODUCTOS*/
+.item {
+  height: 40rem;
+  min-width: 30rem;
+  padding: 2rem;
+}
+.item img {
+  pointer-events: none;
+}
+.slider {
+  display: flex;
+  cursor: grab;
+}
+.slider-container {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
 @media (min-width: 768px) {
   .portada {
     background: url("./components/hero/fondo-portada-lg.png");
