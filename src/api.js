@@ -92,90 +92,92 @@ const data = {
       },
     },
   },
-  products: {
-    DeMesa: [
-      {
-        titulo: "Soda sifón 2 lt",
-        linea: "LINEA DE MESA",
-        img: sifonDosLitrosLista,
-        id: "1H!x40@YaC#5Q1fNGqzL",
-      },
-      {
-        titulo: "Agua 2 lt",
-        linea: "LINEA DE MESA",
-        img: aguaDosLitrosLista,
-        id: "8xHZCN&!21fn6b8%R0*0",
-      },
-      {
-        titulo: "Soda 500cc",
-        linea: "LINEA DE MESA",
-        img: sodaMedioLitroLista,
-        id: "DVq86@qd8$ki6CdYOGh!",
-      },
-      {
-        titulo: "Agua 500cc",
-        linea: "LINEA DE MESA",
-        img: aguaMedioLitroLista,
-        id: "hw1SF#5lCoNHih8C!HcU",
-      },
-      {
-        titulo: "Bidón 6lt",
-        linea: "LINEA DE MESA",
-        img: bidonSeisLitrosLista,
-        id: "T7VA0RUNmJ!pi6bNq0o^",
-      },
-    ],
-    retornables: [
-      {
-        titulo: "Base de mesa",
-        linea: "LINEA RETORNABLE",
-        img: BaseBidonLista,
-        id: "674Sm%^g6uA%jX80Yseo",
-      },
-      {
-        titulo: "Bidón 20lt con pico",
-        linea: "LINEA RETORNABLE",
-        img: bidonVeinteLitrosLista,
-        id: "Vrye&^t4k1R79XQ9nBYl",
-      },
-      {
-        titulo: "Bidón 20lt",
-        linea: "LINEA RETORNABLE",
-        img: bidonVeinteLitroLisoLista,
-        id: "9iS264T4u67x@YD&&jm#",
-      },
-      {
-        titulo: "Bidón 20lt con base",
-        linea: "LINEA RETORNABLE",
-        img: bidonVeinteLitrosConBaseLista,
-        id: "KrfbxG3PfE62!EgV#r*0",
-      },
-      {
-        titulo: "Dispenser a red",
-        linea: "LINEA RETORNABLE",
-        img: dispenserRedLista,
-        id: "EBHF7J@6orq14zDAeIT$",
-      },
-      {
-        titulo: "Máquina de café con bidón",
-        linea: "LINEA RETORNABLE",
-        img: maquinaCafeLista,
-        id: "&NMG!odIRk2W3Q02#@V8",
-      },
-      {
-        titulo: "Dispenser Frío/Calor",
-        linea: "LINEA RETORNABLE",
-        img: dispenserLista,
-        id: "9Pif2#I&nWHN&Z6rxWfv",
-      },
-    ],
-    dispensers: [],
-  },
+  products: [
+    {
+      titulo: "Soda sifón 2 lt",
+      linea: "LINEA DE MESA",
+      img: sifonDosLitrosLista,
+      id: "1H!x40@YaC#5Q1fNGqzL",
+      ruta: "pack-soda-sifon-2lt",
+    },
+    {
+      titulo: "Agua 2 lt",
+      linea: "LINEA DE MESA",
+      img: aguaDosLitrosLista,
+      id: "8xHZCN&!21fn6b8%R0*0",
+      ruta: "pack-agua-2lt",
+    },
+    {
+      titulo: "Soda 500cc",
+      linea: "LINEA DE MESA",
+      img: sodaMedioLitroLista,
+      id: "DVq86@qd8$ki6CdYOGh!",
+      ruta: "pack-soda-500cc",
+    },
+    {
+      titulo: "Agua 500cc",
+      linea: "LINEA DE MESA",
+      img: aguaMedioLitroLista,
+      id: "hw1SF#5lCoNHih8C!HcU",
+      ruta: "pack-agua-500cc",
+    },
+    {
+      titulo: "Bidón 6lt",
+      linea: "LINEA DE MESA",
+      img: bidonSeisLitrosLista,
+      id: "T7VA0RUNmJ!pi6bNq0o^",
+      ruta: "bidon-6lt",
+    },
+    {
+      titulo: "Base de mesa",
+      linea: "LINEA RETORNABLE",
+      img: BaseBidonLista,
+      id: "674Sm%^g6uA%jX80Yseo",
+      ruta: "base-de-mesa",
+    },
+    {
+      titulo: "Bidón 20lt con pico",
+      linea: "LINEA RETORNABLE",
+      img: bidonVeinteLitrosLista,
+      id: "Vrye&^t4k1R79XQ9nBYl",
+      ruta: "bidon-20lt-con-pico",
+    },
+    {
+      titulo: "Bidón 20lt",
+      linea: "LINEA RETORNABLE",
+      img: bidonVeinteLitroLisoLista,
+      id: "9iS264T4u67x@YD&&jm#",
+      ruta: "bidon-20lt",
+    },
+    {
+      titulo: "Bidón 20lt con base",
+      linea: "LINEA RETORNABLE",
+      img: bidonVeinteLitrosConBaseLista,
+      id: "KrfbxG3PfE62!EgV#r*0",
+      ruta: "bidon-20lt-con-base",
+    },
+    {
+      titulo: "Dispenser a red",
+      linea: "LINEA RETORNABLE",
+      img: dispenserRedLista,
+      id: "EBHF7J@6orq14zDAeIT$",
+      ruta: "dispenser-a-red",
+    },
+    {
+      titulo: "Máquina de café con bidón",
+      linea: "LINEA RETORNABLE",
+      img: maquinaCafeLista,
+      id: "&NMG!odIRk2W3Q02#@V8",
+      ruta: "maquina-de-cafe-con-bidon",
+    },
+    {
+      titulo: "Dispenser Frío/Calor",
+      linea: "LINEA RETORNABLE",
+      img: dispenserLista,
+      id: "9Pif2#I&nWHN&Z6rxWfv",
+      ruta: "dispenser-frio-calor",
+    },
+  ],
 };
-
-function getProductDeMesa(id) {
-  const producto = data.products.DeMesa.filter((product) => product.id === id);
-  return producto;
-}
 
 export default data;

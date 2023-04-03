@@ -13,7 +13,7 @@ const router = createHashRouter([
     element: <App />,
   },
   {
-    path: "/productos/:productId",
+    path: "/productos/:rutaProducto",
     element: <ProductDetail />,
   },
   {
