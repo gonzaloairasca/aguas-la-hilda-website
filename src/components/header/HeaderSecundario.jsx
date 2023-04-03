@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import data from "../../api";
 import logo from "./logo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -90,12 +91,14 @@ const HeaderSecundario = () => {
                       productosNav ? "pl-4 pt-1 block" : "pl-4 pt-1 hidden"
                     }
                   >
-                    <li className="p-2">Producto</li>
-                    <li className="p-2">Producto</li>
-                    <li className="p-2">Producto</li>
-                    <li className="p-2">Producto</li>
-                    <li className="p-2">Producto</li>
-                    <li className="p-2">Producto</li>
+                    {data.products.map((producto) => (
+                      <Link
+                        to={`/productos/${producto.ruta}`}
+                        key={producto.id}
+                      >
+                        <li className="p-2">{producto.titulo}</li>
+                      </Link>
+                    ))}
                   </ul>
                 </li>
                 <li
