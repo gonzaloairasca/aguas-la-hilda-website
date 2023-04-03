@@ -7,42 +7,69 @@ import close from "./close.svg";
 import arrow from "./arrow.svg";
 import Redes from "../redes/Redes";
 import Linea from "./lineaseparadora.svg";
+import DropdownProductos from "./DropdownProductos";
 
 const HeaderSecundario = () => {
   const [nav, setNav] = useState(false);
   const [productosNav, setProductosNav] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+
+  const onMouseEnter = () => {
+    setDropdown(true);
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
 
   return (
-    <header className="absolute z-50 top-0 right-0 left-0 bg-transparent ">
+    <header className="absolute z-50 top-0 right-0 left-0 bg-transparent drop-shadow-2xl shadow-portada ">
       <nav className="flex justify-between items-center md:h-24">
-        <img
-          src={logo}
-          alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
-          className="h-24  ml-2 hidden md:block"
-        />
+        <Link to={"/"} className=" hidden md:block">
+          <img
+            src={logo}
+            alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
+            className="h-24  ml-2"
+          />
+        </Link>
         <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold text-[#044F98] lg:pr-60">
-          <li>
+          <li className="hover:text-[#F7100C]">
             <Link to={"/"}>INCIO</Link>
           </li>
-          <li>PRODUCTOS</li>
-          <li>
+          <li
+            onMouseEnter={() => onMouseEnter()}
+            onMouseLeave={() => onMouseLeave()}
+            className="hover:text-[#F7100C] cursor-pointer"
+          >
+            PRODUCTOS {dropdown ? <DropdownProductos /> : <></>}
+          </li>
+          <li className="hover:text-[#F7100C]">
             <Link to={"/nosotros"}>NOSOTROS </Link>
           </li>
-          <Link to={"/contacto"}>CONTACTENOS</Link>
+          <li className="hover:text-[#F7100C]">
+            <Link to={"/contacto"}>CONTACTENOS</Link>
+          </li>
         </ul>
         <div className=" hidden md:flex gap-10 items-center mr-10">
           <img src={Linea} alt="linea separadora" className="mr-6 opacity-30" />
           <Redes />
         </div>
-        <img
-          src={logo}
-          alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
-          className="h-24  ml-2 md:hidden"
-        />
+        <Link to={"/"} className="md:hidden">
+          <img
+            src={logo}
+            alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
+            className="h-32  ml-2 "
+          />
+        </Link>
+
         <img
           src={menu}
           alt="menu de navegacion aguas la hilda cordoba distribucion en todas las sierras"
-          className="px-7 h-6 md:hidden"
+          className="px-7 h-8 md:hidden"
           onClick={() => setNav(!nav)}
         />
         <div

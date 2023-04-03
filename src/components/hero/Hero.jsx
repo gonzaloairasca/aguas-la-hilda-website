@@ -5,7 +5,7 @@ import Carrousel from "./carrousel/Carrousel";
 
 const Hero = () => {
   return (
-    <main className="portada">
+    <main className="portada mt-4">
       <Carrousel autoPlay={true} controls={false} />
       <div className="relative top-10">
         <img

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import DropdownProductos from "./DropdownProductos";
 import data from "../../api";
 import logo from "./logo.png";
 import menu from "./menu.svg";
@@ -11,24 +12,41 @@ import Linea from "./lineaseparadora.svg";
 const Header = () => {
   const [nav, setNav] = useState(false);
   const [productosNav, setProductosNav] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+
+  const onMouseEnter = () => {
+    setDropdown(true);
+  };
+
+  const onMouseLeave = () => {
+    setDropdown(false);
+  };
 
   return (
     <header className=" absolute z-50 top-0 right-0 left-0 bg-transparent ">
       <nav className="flex items-center justify-between lg:justify-around md:h-24">
         <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold text-[#044F98]">
-          <li>
+          <li className="hover:text-[#F7100C]">
             <Link to={"/"}>INCIO</Link>
           </li>
-          <li>PRODUCTOS</li>
-          <li>
+          <li
+            onMouseEnter={() => onMouseEnter()}
+            onMouseLeave={() => onMouseLeave()}
+            className="hover:text-[#F7100C] cursor-pointer"
+          >
+            PRODUCTOS {dropdown ? <DropdownProductos /> : <></>}
+          </li>
+          <li className="hover:text-[#F7100C]">
             <Link to={"/nosotros"}>NOSOTROS </Link>
           </li>
         </ul>
-        <img
-          src={logo}
-          alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
-          className="h-32 lg:h-40 ml-2 md:ml-0 md:relative md:mb-[-60px]"
-        />
+        <Link to={"/"}>
+          <img
+            src={logo}
+            alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
+            className="h-32 lg:h-40 ml-2 md:ml-0 md:relative md:mb-[-60px]"
+          />
+        </Link>
         <img
           src={menu}
           alt="menu de navegacion aguas la hilda cordoba distribucion en todas las sierras"
@@ -37,7 +55,9 @@ const Header = () => {
         />
         <div className=" hidden md:flex gap-10 items-center">
           <ul className=" f-montserrat font-semibold text-[#044F98]">
-            <Link to={"/contacto"}>CONTACTENOS</Link>
+            <li className="hover:text-[#F7100C]">
+              <Link to={"/contacto"}>CONTACTENOS</Link>
+            </li>
           </ul>
           <img src={Linea} alt="linea separadora" />
           <Redes />
