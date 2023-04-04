@@ -7,7 +7,7 @@ import close from "./close.svg";
 import arrow from "./arrow.svg";
 import Redes from "../redes/Redes";
 import Linea from "./lineaseparadora.svg";
-import DropdownProductos from "./DropdownProductos";
+import DropdownProductos from "./navbar/DropdownProductos";
 
 const HeaderSecundario = () => {
   const [nav, setNav] = useState(false);
@@ -28,15 +28,15 @@ const HeaderSecundario = () => {
 
   return (
     <header className="absolute z-50 top-0 right-0 left-0 bg-transparent ">
-      <nav className="flex justify-between items-center md:h-24">
+      <nav className="flex justify-between items-center md:h-24 2xl:h-32">
         <Link to={"/"} className=" hidden md:block">
           <img
             src={logo}
             alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
-            className="h-24  ml-2"
+            className="h-24  ml-2 2xl:h-32"
           />
         </Link>
-        <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold text-[#044F98] lg:pr-60">
+        <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold text-[#044F98] lg:pr-60 2xl:text-xl 2xl:gap-14">
           <li className="hover:text-[#F7100C]">
             <Link to={"/"}>INCIO</Link>
           </li>

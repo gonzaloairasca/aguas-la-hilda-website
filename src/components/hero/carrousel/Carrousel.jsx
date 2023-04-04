@@ -69,22 +69,22 @@ const Carrousel = (props) => {
       <img
         src={selectedProduct.img}
         alt={selectedProduct.titulo}
-        className="w-6/6 mt-24 md:w-4/12 "
+        className="w-6/6 mt-24 md:w-4/12 2xl:mt-28"
         onLoad={() => setLoaded(true)}
       />
-      <div className="md:w-4/12 md:flex md:flex-col md:items-start md:mt-32 md:pl-14">
+      <div className="md:w-4/12 md:flex md:flex-col md:items-start md:mt-32 md:pl-14 2xl:mt-[10rem]">
         {selectedProduct.linea ? (
-          <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto md:mx-0 md:mb-1 lg:text-base">
+          <h3 className="bg-[#39B5FF] w-max f-mplus font-bold text-sm text-white rounded-[3px] p-1 text-center shadow-portada mx-auto md:mx-0 md:mb-1 lg:text-base 2xl:px-2 2xl:text-xl ">
             {selectedProduct.linea}
           </h3>
         ) : (
           <></>
         )}
-        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto md:mx-0 shadow-portada lg:text-3xl">
+        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto md:mx-0 shadow-portada lg:text-3xl 2xl:px-4 2xl:pt-2 2xl:pb-3 2xl:text-5xl">
           {selectedProduct.titulo}
         </h2>
         {window.visualViewport.width > 1024 ? (
-          <h4 className="f-montserrat text-[#044F98] font-semibold text-xl mt-4">
+          <h4 className="f-montserrat text-[#044F98] font-semibold text-xl mt-4 2xl:text-3xl">
             <i>Productos pensados para tu hogar y tu negocio.</i>
           </h4>
         ) : (

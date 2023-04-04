@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import data from "../../api";
+import data from "../../../api";
 
 const DropdownProductos = () => {
   const [click, setClick] = useState(false);
@@ -13,8 +13,8 @@ const DropdownProductos = () => {
         onClick={handleClick}
         className={
           click
-            ? "absolute top-14 hidden ml-[-15px] text-blue-600 bg-white"
-            : "absolute top-14 ml-[-15px] text-xs drop-shadow-2xl text-zinc-600 bg-white pt-6"
+            ? "absolute top-14 hidden ml-[-15px] text-blue-600 bg-white 2xl:top-20"
+            : "absolute top-14 ml-[-15px] text-xs drop-shadow-2xl text-zinc-600 bg-white pt-6 2xl:top-[4.9rem]"
         }
       >
         {data.products.map((product, index) => {

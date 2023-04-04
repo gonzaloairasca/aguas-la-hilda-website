@@ -3,7 +3,7 @@ import wsp from "../../seDistribuidor/whatsapp.svg";
 
 const SectionContacto = () => {
   return (
-    <section className="mt-32">
+    <section className="mt-32 md:mt-24 2xl:mt-32">
       <div className="h-64 md:h-96 bannerContacto flex flex-col justify-center items-center">
         <h1 className="f-montserrat font-extrabold text-2xl lg:text-5xl text-center mx-auto text-white text-shadow px-3">
           Contacto Directo

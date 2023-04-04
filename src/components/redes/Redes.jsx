@@ -12,6 +12,7 @@ const Redes = ({ celeste }) => {
       <li>
         <a href="https://www.instagram.com/aguaslahilda" target="_blank">
           <img
+            className="2xl:h-6"
             src={celeste ? instagramC : instagram}
             alt="Icono instagram embotelladora de agua la hilda"
           />
@@ -20,6 +21,7 @@ const Redes = ({ celeste }) => {
       <li>
         <a href="https://www.facebook.com/AguasLaHilda" target="_blank">
           <img
+            className="2xl:h-6"
             src={celeste ? facebookC : facebook}
             alt="Icono facebook embotelladora de agua la hilda"
           />
@@ -31,6 +33,7 @@ const Redes = ({ celeste }) => {
           target="_blank"
         >
           <img
+            className="2xl:h-6"
             src={celeste ? wspC : wsp}
             alt="Icono whatsapp embotelladora de agua la hilda"
           />
