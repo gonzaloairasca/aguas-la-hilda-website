@@ -25,11 +25,12 @@ const ProductDetail = () => {
             />
           </div>
           <div className="lg:w-1/2  lg:pr-20 lg:mt-14">
-            <div className="px-4 ">
-              <h1 className="text-2xl font-bold text-[#39B5FF] my-4 lg:text-lg lg:font-bold">
+            <div className="px-4">
+              <h1 className="text-2xl font-bold text-[#39B5FF] my-4  lg:text-3xl lg:font-bold">
                 {producto[0].titulo.toUpperCase()}
               </h1>
-              <p className="text-zinc-700 mt-3">{producto[0].descripcion}</p>
+              <hr />
+              {/* <p className="text-zinc-700 mt-3">{producto[0].descripcion}</p> */}
               <h2 className="text-zinc-800 font-semibold text-lg mt-4">
                 Se comercializa en packs de 12 unidades.
               </h2>
