@@ -99,6 +99,7 @@ const data = {
       img: sifonDosLitrosLista,
       id: "1H!x40@YaC#5Q1fNGqzL",
       ruta: "pack-soda-sifon-2lt",
+      comercializacion: "Se comercializa en pack de 6 unidades.",
       descripcion:
         "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
@@ -108,6 +109,7 @@ const data = {
       img: aguaDosLitrosLista,
       id: "8xHZCN&!21fn6b8%R0*0",
       ruta: "pack-agua-2lt",
+      comercializacion: "Se comercializa en pack de 6 unidades.",
       descripcion:
         "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
@@ -117,6 +119,7 @@ const data = {
       img: sodaMedioLitroLista,
       id: "DVq86@qd8$ki6CdYOGh!",
       ruta: "pack-soda-500cc",
+      comercializacion: "Se comercializa en pack de 12 unidades.",
       descripcion:
         "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
@@ -126,6 +129,7 @@ const data = {
       img: aguaMedioLitroLista,
       id: "hw1SF#5lCoNHih8C!HcU",
       ruta: "pack-agua-500cc",
+      comercializacion: "Se comercializa en pack de 12 unidades.",
       descripcion:
         "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },
@@ -135,6 +139,7 @@ const data = {
       img: bidonSeisLitrosLista,
       id: "T7VA0RUNmJ!pi6bNq0o^",
       ruta: "bidon-6lt",
+      comercializacion: "Se comercializa por unidades.",
       descripcion:
         "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },

@@ -31,9 +31,17 @@ const ProductDetail = () => {
               </h1>
               <hr />
               {/* <p className="text-zinc-700 mt-3">{producto[0].descripcion}</p> */}
-              <h2 className="text-zinc-800 font-semibold text-lg mt-4">
-                Se comercializa en packs de 12 unidades.
-              </h2>
+
+              {producto[0].comercializacion ? (
+                <h2 className="text-zinc-800 font-semibold text-lg mt-4">
+                  {producto[0].comercializacion}
+                </h2>
+              ) : (
+                <></>
+              )}
+              <h4 className="text-zinc-700 mt-4">
+                Comercializá este u otros productos, contactanos!
+              </h4>
             </div>
             <div className="mt-5 px-4">
               <a
@@ -45,9 +53,6 @@ const ProductDetail = () => {
                   CONTACTANOS
                 </button>
               </a>
-              <h4 className="text-zinc-700 mt-4">
-                Comercializá este u otros productos, contactanos!
-              </h4>
             </div>
           </div>
         </div>
