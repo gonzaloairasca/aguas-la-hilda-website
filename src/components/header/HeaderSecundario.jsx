@@ -27,7 +27,7 @@ const HeaderSecundario = () => {
   };
 
   return (
-    <header className="absolute z-50 top-0 right-0 left-0 bg-transparent drop-shadow-2xl shadow-portada ">
+    <header className="absolute z-50 top-0 right-0 left-0 bg-transparent ">
       <nav className="flex justify-between items-center md:h-24">
         <Link to={"/"} className=" hidden md:block">
           <img

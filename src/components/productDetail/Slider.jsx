@@ -13,7 +13,7 @@ const Slider = ({ productosSimilares }) => {
         {productosSimilares.map((producto) => (
           <motion.div className="item" key={producto.id}>
             <img className="" src={producto.img} alt="" />
-            <Link to={`/productos/${producto.ruta}`} preventScrollReset={false}>
+            <Link to={`/productos/${producto.ruta}`}>
               <h2 className="text-center text-sm font-bold text-blue-900 lg:text-lg lg:font-bold">
                 {producto.titulo}
               </h2>

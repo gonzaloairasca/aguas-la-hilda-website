@@ -14,28 +14,8 @@ import {
 } from "react-router-dom";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
-// const router = createHashRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//   },
-//   {
-//     path: "/productos/:rutaProducto",
-//     element: <ProductDetail />,
-//   },
-//   {
-//     path: "/contacto",
-//     element: <Contacto />,
-//   },
-//   {
-//     path: "/nosotros",
-//     element: <Nosotros />,
-//   },
-// ]);
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <RouterProvider router={router} /> */}
     <HashRouter>
       <ScrollToTop />
       <Routes>

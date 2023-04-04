@@ -5,7 +5,7 @@ import ImgTres from "./nosotros-img3.jpg";
 
 const HeroNosotros = () => {
   return (
-    <section className="mt-24">
+    <section className="mt-32">
       <div className="h-64 md:h-96 banner flex items-center">
         <h1 className="f-montserrat font-extrabold text-2xl lg:text-5xl text-center mx-auto text-white text-shadow px-3">
           Trayectoria, experiencia y responsabilidad.
