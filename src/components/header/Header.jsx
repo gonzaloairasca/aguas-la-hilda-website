@@ -9,9 +9,26 @@ import NavMobile from "./navbar/NavMobile";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
+  const [header, setHeader] = useState(false);
 
+  window.onscroll = function () {
+    let y = window.scrollY;
+
+    if (y > 400) {
+      setHeader(true);
+    } else if (y < 200) {
+      setHeader(false);
+    }
+  };
+  console.log(header);
   return (
-    <header className=" absolute z-50 top-0 right-0 left-0 bg-transparent ">
+    <header
+      className={
+        header
+          ? "fixed z-50 top-0 right-0 left-0 bg-white   animacion"
+          : "absolute z-50 top-0 right-0 left-0 bg-transparent"
+      }
+    >
       <nav className="flex items-center justify-between md:justify-around md:h-24 2xl:h-32">
         <Link to={"/"} className=" hidden md:block lg:hidden">
           <img

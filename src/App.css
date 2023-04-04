@@ -88,6 +88,22 @@
   margin: 0 auto;
   overflow-x: hidden;
 }
+.animacion {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @media (min-width: 768px) {
   .portada {

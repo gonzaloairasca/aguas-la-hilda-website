@@ -13,6 +13,17 @@ const HeaderSecundario = () => {
   const [nav, setNav] = useState(false);
   const [productosNav, setProductosNav] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [header, setHeader] = useState(false);
+
+  window.onscroll = function () {
+    let y = window.scrollY;
+
+    if (y > 400) {
+      setHeader(true);
+    } else if (y < 200) {
+      setHeader(false);
+    }
+  };
 
   const onMouseEnter = () => {
     setDropdown(true);
@@ -27,7 +38,13 @@ const HeaderSecundario = () => {
   };
 
   return (
-    <header className="absolute z-50 top-0 right-0 left-0 bg-transparent ">
+    <header
+      className={
+        header
+          ? "fixed z-50 top-0 right-0 left-0 bg-white animacion"
+          : "absolute z-50 top-0 right-0 left-0 bg-transparent"
+      }
+    >
       <nav className="flex justify-between items-center md:h-24 2xl:h-32">
         <Link to={"/"} className=" hidden md:block">
           <img
