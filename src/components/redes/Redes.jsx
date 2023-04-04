@@ -8,7 +8,7 @@ import instagramC from "./instagramCeleste.svg";
 
 const Redes = ({ celeste }) => {
   return (
-    <ul className="flex gap-4">
+    <ul className="flex gap-4 md:mr-4">
       <li>
         <a href="https://www.instagram.com/aguaslahilda" target="_blank">
           <img

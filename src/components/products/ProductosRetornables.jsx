@@ -9,7 +9,7 @@ const ProductosRetornables = ({ data }) => {
     <>
       {productosRetornables.map((product) => (
         <div
-          className="w-5/12 lg:w-1/5 hover:bg-[#0000000c] hover:rounded-xl"
+          className="w-5/12 md:w-4/12 lg:w-1/5 hover:bg-[#0000000c] hover:rounded-xl"
           key={product.id}
         >
           <Link to={`productos/${product.ruta}`}>

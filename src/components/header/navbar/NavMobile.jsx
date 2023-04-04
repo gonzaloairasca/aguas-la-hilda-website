@@ -12,7 +12,7 @@ const NavMobile = ({ setNav, nav }) => {
   return (
     <div className="flex justify-end">
       <div className="w-5/6 h-screen  bg-[#39B5FF]">
-        <div className="flex justify-between border-b-2 border-b-teal-200">
+        <div className="flex justify-between border-b-2 border-b-white">
           <img
             src={logo}
             alt="logo embotelladora de agua La Hilda, Córdoba capital."
@@ -27,13 +27,13 @@ const NavMobile = ({ setNav, nav }) => {
         </div>
         <ul className="text-slate-50 ">
           <li
-            className="p-3 border-b-2 border-b-teal-200"
+            className="p-3 border-b-2 bordewhite"
             onClick={() => setNav(false)}
           >
             <Link to={"/"}>Inicio</Link>
           </li>
           <li
-            className="p-3 border-b-2 border-b-teal-200"
+            className="p-3 border-b-2 border-b-white"
             onClick={() => setProductosNav(!productosNav)}
           >
             <div className="flex justify-between items-center mr-4">
@@ -51,13 +51,13 @@ const NavMobile = ({ setNav, nav }) => {
             </ul>
           </li>
           <li
-            className="p-3 border-b-2 border-b-teal-200"
+            className="p-3 border-b-2 border-b-white"
             onClick={() => setNav(false)}
           >
             <Link to={"/nosotros"}>Nosotros</Link>
           </li>
           <li
-            className="p-3 border-b-2 border-b-teal-200"
+            className="p-3 border-b-2 border-b-white"
             onClick={() => setNav(false)}
           >
             <Link to={"/contacto"}>Contactanos</Link>

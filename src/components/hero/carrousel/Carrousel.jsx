@@ -80,11 +80,11 @@ const Carrousel = (props) => {
         ) : (
           <></>
         )}
-        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto md:mx-0 shadow-portada lg:text-3xl 2xl:px-4 2xl:pt-2 2xl:pb-3 2xl:text-5xl">
+        <h2 className="bg-[#39B5FF] px-2 py-1 f-mplus font-bold text-2xl text-white rounded-[3px] text-center mt-4 mx-auto md:mx-0 md:text-xl shadow-portada lg:text-3xl 2xl:px-4 2xl:pt-2 2xl:pb-3 2xl:text-5xl">
           {selectedProduct.titulo}
         </h2>
-        {window.visualViewport.width > 1024 ? (
-          <h4 className="f-montserrat text-[#044F98] font-semibold text-xl mt-4 2xl:text-3xl">
+        {window.visualViewport.width > 768 ? (
+          <h4 className="f-montserrat text-[#044F98] font-semibold text-xl mt-4 md:text-base  2xl:text-3xl">
             <i>Productos pensados para tu hogar y tu negocio.</i>
           </h4>
         ) : (

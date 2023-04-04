@@ -13,7 +13,7 @@ const NavIzquierdo = () => {
     setDropdown(false);
   };
   return (
-    <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold text-[#044F98] 2xl:text-xl">
+    <ul className="hidden md:flex gap-6 f-montserrat ml-4 font-semibold md:text-base text-[#044F98] 2xl:text-xl">
       <li className="hover:text-[#F7100C]">
         <Link to={"/"}>INCIO</Link>
       </li>

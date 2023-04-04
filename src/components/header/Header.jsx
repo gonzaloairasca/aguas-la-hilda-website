@@ -12,13 +12,20 @@ const Header = () => {
 
   return (
     <header className=" absolute z-50 top-0 right-0 left-0 bg-transparent ">
-      <nav className="flex items-center justify-between lg:justify-around md:h-24 2xl:h-32">
-        <NavIzquierdo />
-        <Link to={"/"}>
+      <nav className="flex items-center justify-between md:justify-around md:h-24 2xl:h-32">
+        <Link to={"/"} className=" hidden md:block lg:hidden">
           <img
             src={logo}
             alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
-            className="h-32 lg:h-40 ml-2 md:ml-0 md:relative md:mb-[-60px] 2xl:h-44 2xl:mb-[-90px]"
+            className="h-32 lg:h-40 ml-2 md:h-24 md:ml-0 md:relative  2xl:h-44 2xl:mb-[-90px]"
+          />
+        </Link>
+        <NavIzquierdo />
+        <Link to={"/"} className="md:hidden lg:block">
+          <img
+            src={logo}
+            alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
+            className="h-32 lg:h-40 ml-2 md:h-24 md:ml-0 md:relative md:mb-[-60px] 2xl:h-44 2xl:mb-[-90px]"
           />
         </Link>
         <img

@@ -5,7 +5,7 @@ const SeDistribuidor = () => {
   return (
     <section className="bg-seDistribuidor lg:bg-cover f-mplus">
       <div className="bg-[#39b6ff2f] ">
-        <div className=" px-4 py-10 lg:py-20 lg:w-3/6 md:mx-auto">
+        <div className=" px-4 py-10 md:w-4/6 lg:py-20 lg:w-3/6 md:mx-auto">
           <div className="bg-[#39B5FF] rounded-t-xl shadow-elementos">
             <h1 className="py-6 px-3 text-2xl font-bold text-white text-shadow-separador lg:text-4xl lg:pl-5">
               ¡SE DISTRIBUIDOR!
