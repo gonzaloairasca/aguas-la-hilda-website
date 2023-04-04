@@ -5,13 +5,7 @@ import ProductDetail from "./components/productDetail/ProductDetail";
 import Contacto from "./components/contacto/Contacto";
 import Nosotros from "./components/nosotros/Nosotros";
 import "./index.css";
-import {
-  createHashRouter,
-  RouterProvider,
-  HashRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

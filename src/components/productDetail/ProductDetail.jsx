@@ -18,7 +18,11 @@ const ProductDetail = () => {
       <section className="lg:mt-32">
         <div className="mt-28 lg:flex">
           <div className="lg:w-1/2 lg:flex lg:justify-center">
-            <img src={producto[0].img} alt={producto[0].titulo} />
+            <img
+              className="mx-auto"
+              src={producto[0].img}
+              alt={producto[0].titulo}
+            />
           </div>
           <div className="lg:w-1/2  lg:pr-20 lg:mt-14">
             <div className="px-4 ">

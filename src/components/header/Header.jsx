@@ -62,11 +62,12 @@ const Header = () => {
           <img src={Linea} alt="linea separadora" />
           <Redes />
         </div>
+
         <div
           className={
             nav
               ? "fixed  right-0 top-0  h-screen w-full bg-[#ffffffc0] font-semibold transition duration-[1000ms] translate-x-0 opacity-100"
-              : "fixed translate-x-96 right-0 top-0 h-screen w-full md:hidden transition duration-[1000ms]  opacity-0"
+              : "fixed translate-x-[-30rem] right-0 top-0 h-screen w-full md:hidden transition duration-[1000ms]  opacity-0"
           }
         >
           <div className="flex justify-end">

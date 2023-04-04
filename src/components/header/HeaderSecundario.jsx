@@ -122,6 +122,7 @@ const HeaderSecundario = () => {
                       <Link
                         to={`/productos/${producto.ruta}`}
                         key={producto.id}
+                        onClick={() => setNav(!nav)}
                       >
                         <li className="p-2">{producto.titulo}</li>
                       </Link>
