@@ -14,13 +14,14 @@ const ProductDetail = () => {
     (producto) => producto.ruta === rutaProducto
   );
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 200);
-  }, []);
+  }, [rutaProducto]);
 
   return (
     <>
