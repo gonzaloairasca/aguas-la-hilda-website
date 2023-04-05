@@ -73,6 +73,7 @@
 }
 
 /*ESTILOS PRODUCTOS*/
+
 .item {
   height: 20rem;
   min-width: 15rem;
@@ -90,6 +91,7 @@
 }
 .animacion {
   animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
   animation-duration: 1s;
   animation-iteration-count: 1;
 }

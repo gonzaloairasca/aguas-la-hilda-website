@@ -41,7 +41,7 @@ const HeaderSecundario = () => {
     <header
       className={
         header
-          ? "fixed z-50 top-0 right-0 left-0 bg-white animacion"
+          ? "fixed z-50 top-0 right-0 left-0 bg-white shadow-elementos animacion"
           : "absolute z-50 top-0 right-0 left-0 bg-transparent"
       }
     >
