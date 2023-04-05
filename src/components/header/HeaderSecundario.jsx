@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import data from "../../api";
-import logo from "./logo.png";
+import logo from "./logo2.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrow from "./arrow.svg";
@@ -49,7 +49,7 @@ const HeaderSecundario = () => {
         <Link to={"/"} className=" hidden md:block">
           <img
             src={logo}
-            alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
+            alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras 1"
             className="h-24  ml-2 2xl:h-32"
           />
         </Link>
@@ -78,15 +78,15 @@ const HeaderSecundario = () => {
         <Link to={"/"} className="md:hidden">
           <img
             src={logo}
-            alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras"
-            className="h-32  ml-2 "
+            alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras 2"
+            className={header ? "h-24  ml-2 " : "h-32  ml-2 "}
           />
         </Link>
 
         <img
           src={menu}
           alt="menu de navegacion aguas la hilda cordoba distribucion en todas las sierras"
-          className="px-7 h-8 md:hidden"
+          className={header ? "px-7 h-6 md:hidden" : "px-7 h-8 md:hidden"}
           onClick={() => setNav(!nav)}
         />
         <div

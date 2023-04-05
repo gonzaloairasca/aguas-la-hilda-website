@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import data from "../../api";
-import logo from "./logo.png";
+import logo from "./logo2.png";
 import menu from "./menu.svg";
 import NavDerecho from "./navbar/NavDerecho";
 import NavIzquierdo from "./navbar/NavIzquierdo";
@@ -50,7 +50,7 @@ const Header = () => {
             alt="logo aguas la hilda cordoba capital, distribucion en todas las sierras 2"
             className={
               header
-                ? "h-32 lg:h-28 bg-white rounded-full ml-2 md:h-24 md:ml-0 md:relative md:mb-[-40px] 2xl:h-44 2xl:mb-[-90px]"
+                ? "h-24 lg:h-28 bg-white rounded-full ml-2 md:h-24 md:ml-0 md:relative md:mb-[-40px] 2xl:h-44 2xl:mb-[-90px]"
                 : "h-32 lg:h-40 ml-2 md:h-24 md:ml-0 md:relative md:mb-[-60px] 2xl:h-44 2xl:mb-[-90px]"
             }
           />
@@ -58,7 +58,7 @@ const Header = () => {
         <img
           src={menu}
           alt="menu de navegacion aguas la hilda cordoba distribucion en todas las sierras"
-          className="px-7 h-8 md:hidden"
+          className={header ? "px-7 h-6 md:hidden" : "px-7 h-8 md:hidden"}
           onClick={() => setNav(!nav)}
         />
         <NavDerecho productos={data} />

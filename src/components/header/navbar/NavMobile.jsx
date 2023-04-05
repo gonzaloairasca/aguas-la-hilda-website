@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../logo.png";
+import logo from "../logo2.png";
 import close from "../close.svg";
 import arrow from "../arrow.svg";
 import data from "../../../api";

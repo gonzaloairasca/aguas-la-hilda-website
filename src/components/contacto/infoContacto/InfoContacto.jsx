@@ -5,7 +5,7 @@ import ubicacion from "./ubicacion.svg";
 
 const InfoContacto = () => {
   return (
-    <div className="w-full mt-10 lg:mt-[5rem]">
+    <div className="w-full mt-10 lg:mt-[9rem]">
       <ul className="bg-[#39B5FF] flex flex-col gap-8 px-3 py-12 m-3 lg:px-10 rounded-sm">
         <li className="flex items-center gap-3">
           <div className="rounded-full bg-white p-3 border-8 border-[#39b6ff5d]">

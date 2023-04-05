@@ -6,6 +6,7 @@ const Formulario = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [consulta, setConsulta] = useState("");
+  const [numeroTel, setNumeroTel] = useState("");
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,6 +24,7 @@ const Formulario = () => {
           setName("");
           setEmail("");
           setConsulta("");
+          setNumeroTel("");
           alert(
             "Tu consulta fue enviada con éxito! Gracias por comunicarte, en breve obtendrás respuesta."
           );
@@ -53,6 +55,20 @@ const Formulario = () => {
         onChange={(e) => setName(e.target.value)}
         value={name}
       />
+
+      <label htmlFor="contact_number" className="text-zinc-700">
+        Teléfono:
+      </label>
+      <input
+        required
+        className="focus:outline-none bg-[#D9D9D9] w-full pb-2 my-3 pt-1 pl-2 placeholder-gray-500"
+        type="text"
+        name="contact_number"
+        placeholder="Número de teléfono"
+        onChange={(e) => setNumeroTel(e.target.value)}
+        value={numeroTel}
+      />
+
       <label htmlFor="user_email" className="text-zinc-700">
         Email:
       </label>
