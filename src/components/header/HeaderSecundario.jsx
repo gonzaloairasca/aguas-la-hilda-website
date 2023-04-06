@@ -71,8 +71,12 @@ const HeaderSecundario = () => {
             <Link to={"/contacto"}>CONTACTENOS</Link>
           </li>
         </ul>
-        <div className=" hidden md:flex gap-10 items-center mr-10">
-          <img src={Linea} alt="linea separadora" className="mr-6 opacity-30" />
+        <div className=" hidden md:flex md:mr-3 lg:mr-10 gap-10 items-center mr-10 ">
+          <img
+            src={Linea}
+            alt="linea separadora"
+            className="mr-6 opacity-30 md:hidden lg:block"
+          />
           <Redes />
         </div>
         <Link to={"/"} className="md:hidden">

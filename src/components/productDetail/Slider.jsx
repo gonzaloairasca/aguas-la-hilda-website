@@ -2,13 +2,18 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const Slider = ({ productosSimilares }) => {
+const Slider = ({ productos, producto }) => {
+  const productosSimilares = productos.filter(
+    (item) => item.titulo != producto.titulo
+  );
+
+  console.log(productosSimilares);
   return (
     <motion.div className="slider-container mt-8">
       <motion.div
         className="slider"
         drag="x"
-        dragConstraints={{ right: 0, left: -2500 }}
+        dragConstraints={{ right: 0, left: -2000 }}
       >
         {productosSimilares.map((producto) => (
           <motion.div className="item" key={producto.id}>

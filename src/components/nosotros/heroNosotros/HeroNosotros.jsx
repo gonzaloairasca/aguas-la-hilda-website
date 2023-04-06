@@ -13,39 +13,61 @@ const HeroNosotros = () => {
       </div>
       <div className="px-8 mt-8 lg:px-16 2xl:max-w-[1500px] 2xl:mx-auto  2xl:mt-20 ">
         <h2 className="font-semibold text-lg text-zinc-900 2xl:text-3xl	">
-          Somos La Hilda, una empresa que produce agua mineral.
+          ¡HOLA! Somos Aguas La Hilda, una empresa dedicada a la producción y
+          envasado de agua baja en sodio.
         </h2>
-        <h2 className="font-semibold text-lg text-zinc-900 mt-2 2xl:text-3xl	">
-          Nuestro compromiso con el cliente es cumplirle, para poder proveerle
-          una excelente agua para uso residencial, comercial e industrial.
-        </h2>
+
         <p className="text-zinc-700 mt-4 2xl:text-2xl">
-          Nuestra trayectoria, experiencia y responsabilidad nos caracteriza en
-          el rubro y con cada cliente.
+          Trabajamos diariamente para llegar a las casas de familia, comercios y
+          empresas en la ciudad de Cordoba y el interior; mediante un servicio
+          de distribución y atención al cliente de calidad, siendo así nuestro
+          objetivo acompañar su hidratación.
         </p>
-        <p className="mt-4 text-zinc-700  2xl:text-2xl">
-          El agua que producimos es saludable, porque además de ser natural, ha
-          sido cuidadosamente purificada para eliminar los contaminantes
-          físicos, químicos y biológicos que pudieran estar presentes. Logrando
-          calidad en nuestro producto, caracterizado por se un agua fina y
-          liviana, con los minerales justos que el cuerpo necesita.
+
+        <h2 className="font-semibold text-lg mt-6 text-zinc-900 2xl:text-3xl	">
+          Nuestra Mision
+        </h2>
+        <p className="mt-2 text-zinc-700  2xl:text-2xl">
+          Producir y vender agua baja en tanto dentro de la ciudad de Cordoba
+          como en el interior, llegando a las personas mediante un servicio
+          distribución y atención al cliente de calidad, con el fin de
+          satisfacer y acompañar su hidratación en las distintas actividades de
+          la vida diaria
         </p>
+
+        <h2 className="font-semibold text-lg mt-6 text-zinc-900 2xl:text-3xl	">
+          Nuestros Visión
+        </h2>
+        <p className="mt-2 text-zinc-700  2xl:text-2xl">
+          Lograr ser una empresa con presencia nacional, siendo reconocida y
+          elegida por brindar un producto y servicio de calidad.
+        </p>
+        <h2 className="font-semibold text-lg mt-6 text-zinc-900 2xl:text-3xl	">
+          Nuestros Valores
+        </h2>
+        <ul className="mt-2 text-zinc-700  2xl:text-2xl">
+          <li>Trabajo en equipo</li>
+          <li>Pasión por lo que hacemos</li>
+          <li>Responsabilidad</li>
+          <li>Compromiso</li>
+          <li>Calidad en el producto y servicio</li>
+        </ul>
       </div>
-      <div className=" lg:flex lg:justify-between lg:gap-3 lg:px-16 lg:mt-8  2xl:max-w-[1500px] 2xl:mx-auto  2xl:mt-14 ">
+      <div className=" md:flex md:justify-between lg:gap-3 md:px-8 lg:px-16 md:mt-8  2xl:max-w-[1500px] 2xl:mx-auto  2xl:mt-14 ">
         <img
           src={Img}
           alt="imagen la planta potabilizadora la hilda"
-          className="p-8 lg:p-0 lg:w-[32%]"
+          className="p-8 md:p-0 md:w-[32%]"
         />
         <img
           src={ImgDos}
           alt="imagen la planta potabilizadora la hilda"
-          className="px-8 lg:p-0 lg:w-[32%]"
+          className="px-8 md:p-0 md:w-[32%]"
         />
         <img
           src={ImgTres}
           alt="imagen la planta potabilizadora la hilda"
-          className="p-8 lg:p-0 lg:w-[32%]"
+          className="p-8 md:p-0 md:w-[32%]"
         />
       </div>
       <div className="border-dotted border-t-2 border-b-2 my-8 mx-8">

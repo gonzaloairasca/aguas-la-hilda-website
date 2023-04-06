@@ -8,14 +8,12 @@ import baseBidon from "./assets/images/productosPortada/basebidonportada.png";
 import aguaMedioLitro from "./assets/images/productosPortada/aguamediolitroportada.png";
 import bidonVeinteLitrosRetornable from "./assets/images/productosPortada/bidonveintelitrossoloportada.png";
 import bidonVeinteLitrosConBase from "./assets/images/productosPortada/bidonveintelitrosconbaseportada.png";
-import bidonVeinteLitrosConPico from "./assets/images/productosPortada/bidonveintelitrosconpicoportada.png";
 import dispenserRed from "./assets/images/productosPortada/dispenserredportada.png";
 ////////////////////////////////////////////////////
 import aguaDosLitrosLista from "./assets/images/productosLista/aguaDosLitros.png";
 import aguaMedioLitroLista from "./assets/images/productosLista/aguaMedioLitro.png";
 import BaseBidonLista from "./assets/images/productosLista/BaseBidon.png";
 import bidonSeisLitrosLista from "./assets/images/productosLista/bidonSeisLitros.png";
-import bidonVeinteLitrosLista from "./assets/images/productosLista/bidonVeinteLitros.png";
 import dispenserLista from "./assets/images/productosLista/dispenser.png";
 import dispenserRedLista from "./assets/images/productosLista/dispenserRed.png";
 import maquinaCafeLista from "./assets/images/productosLista/maquinaCafe.png";
@@ -64,11 +62,6 @@ const data = {
         titulo: "BIDÓN 20lt CON BASE",
         linea: "LINEA RETORNABLE",
         img: bidonVeinteLitrosConBase,
-      },
-      bidonVeinteLitrosConPico: {
-        titulo: "BIDÓN 20lt CON PICO",
-        linea: "LINEA RETORNABLE",
-        img: bidonVeinteLitrosConPico,
       },
       baseBidon: {
         titulo: "BASE DE MESA 12/20L",
@@ -149,15 +142,6 @@ const data = {
       img: BaseBidonLista,
       id: "674Sm%^g6uA%jX80Yseo",
       ruta: "base-de-mesa",
-      descripcion:
-        "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
-    },
-    {
-      titulo: "Bidón 20lt con pico",
-      linea: "LINEA RETORNABLE",
-      img: bidonVeinteLitrosLista,
-      id: "Vrye&^t4k1R79XQ9nBYl",
-      ruta: "bidon-20lt-con-pico",
       descripcion:
         "ipsum dolor sit, amet consectetur adipisicing elit. Hic ducimus, distinctio dicta natus quasi repellendus quae in sit, sapiente, perferendis culpa accusamus adipisci! Ipsam veniam vel animi aliquid, delectus amet.",
     },

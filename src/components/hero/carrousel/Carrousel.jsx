@@ -84,8 +84,8 @@ const Carrousel = (props) => {
           {selectedProduct.titulo}
         </h2>
         {window.visualViewport.width > 768 ? (
-          <h4 className="f-montserrat text-[#044F98] font-semibold text-xl mt-4 md:text-base  2xl:text-3xl">
-            <i>Productos pensados para tu hogar y tu negocio.</i>
+          <h4 className="f-montserrat text-[#044F98] font-semibold text-xl mt-4 md:text-lg  2xl:text-3xl">
+            <i>Agua baja en sodio para tu mesa y tu negocio.</i>
           </h4>
         ) : (
           <></>

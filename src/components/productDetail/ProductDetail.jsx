@@ -13,7 +13,6 @@ const ProductDetail = () => {
   const producto = data.products.filter(
     (producto) => producto.ruta === rutaProducto
   );
-
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -31,22 +30,20 @@ const ProductDetail = () => {
       ) : (
         <>
           <section className="lg:mt-32">
-            <div className="mt-28 lg:flex">
-              <div className="lg:w-1/2 lg:flex lg:justify-center">
+            <div className="mt-28 md:flex">
+              <div className="md:w-1/2 md:flex md:justify-center">
                 <img
                   className="mx-auto"
                   src={producto[0].img}
                   alt={producto[0].titulo}
                 />
               </div>
-              <div className="lg:w-1/2  lg:pr-20 lg:mt-14">
+              <div className="md:w-1/2  md:pr-20 md:mt-14">
                 <div className="px-4">
                   <h1 className="text-2xl font-bold text-[#39B5FF] my-4  lg:text-3xl lg:font-bold">
                     {producto[0].titulo.toUpperCase()}
                   </h1>
                   <hr />
-                  {/* <p className="text-zinc-700 mt-3">{producto[0].descripcion}</p> */}
-
                   {producto[0].comercializacion ? (
                     <h2 className="text-zinc-800 font-semibold text-lg mt-4">
                       {producto[0].comercializacion}
@@ -72,10 +69,10 @@ const ProductDetail = () => {
               </div>
             </div>
             <div className="mt-14">
-              <h2 className="text-[#39B5FF] text-xl font-bold px-3 lg:text-center lg:text-3xl lg:mt-35 lg:mb-16">
+              <h2 className="text-[#39B5FF] text-xl font-bold px-3 md:text-center md:text-3xl lg:mt-35 lg:mb-16">
                 Otros productos similares
               </h2>
-              <Slider productosSimilares={data.products} />
+              <Slider productos={data.products} producto={producto[0]} />
             </div>
           </section>
           <Footer />
