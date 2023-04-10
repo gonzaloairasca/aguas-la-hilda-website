@@ -9,7 +9,6 @@ const Carrousel = (props) => {
     data.hero.productos.sodasMedioLitro,
     data.hero.productos.aguaMedioLitro,
     data.hero.productos.bidonVeinteLitrosConBase,
-    data.hero.productos.bidonVeinteLitrosConPico,
     data.hero.productos.bidonVeinteLitrosRetornable,
     data.hero.productos.baseBidon,
     data.hero.productos.dispenserRed,
