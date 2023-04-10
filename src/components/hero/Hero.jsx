@@ -14,7 +14,7 @@ const Hero = () => {
           alt="divisor"
         />
         <h3 className="text-white f-mplus font-medium italic text-xl px-12 md:top-8 md:left-10 lg:top-10 lg:left-[11rem] xl:left-80 xl:top-16 2xl:left-[36rem] 2xl:top-[6rem] 2xl:text-4xl md:text-3xl text-center absolute top-12 text-shadow-separador ">
-          Agua saludable para tu mesa y tu negocio.
+          Agua baja en sodio para tu mesa y tu negocio.
         </h3>
       </div>
     </main>
