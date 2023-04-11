@@ -2,6 +2,9 @@ import React from "react";
 import Img from "./nosotros-img.jpg";
 import ImgDos from "./nosotros-img2.jpg";
 import ImgTres from "./nosotros-img3.jpg";
+import empleada1 from "./empleada1.jpg";
+import empleada2 from "./empleada2.jpg";
+import equipoLaHilda from "./equipolahilda.jpg";
 
 const HeroNosotros = () => {
   return (
@@ -74,6 +77,30 @@ const HeroNosotros = () => {
         <p className="italic f-montserrat font-semibold text-zinc-700 text-xl p-8 mb-8 text-center  2xl:text-3xl">
           "Productos de calidad para tu mesa y tu negocio."
         </p>
+      </div>
+      <h2 className="f-montserrat font-bold text-3xl text-center text-zinc-900">
+        Nuestro equipo
+      </h2>
+      <div className="flex justify-center flex-col max-w-3xl mx-auto">
+        <div>
+          <img
+            src={equipoLaHilda}
+            alt="imagen la planta potabilizadora la hilda"
+            className="p-8 mx-auto "
+          />
+        </div>
+        <div className=" flex">
+          <img
+            src={empleada1}
+            alt="imagen la planta potabilizadora la hilda"
+            className="pb-8  pl-8 pr-4 w-1/2  md:w-full "
+          />
+          <img
+            src={empleada2}
+            alt="imagen la planta potabilizadora la hilda"
+            className="pb-8 pr-8 pl-4 w-1/2 "
+          />
+        </div>
       </div>
     </section>
   );
