@@ -15,7 +15,7 @@ const HeroNosotros = () => {
         </h1>
       </div>
       <div className="px-8 mt-8 lg:px-16 2xl:max-w-[1500px] 2xl:mx-auto  2xl:mt-20 ">
-        <h2 className="font-semibold text-lg text-zinc-900 2xl:text-3xl	">
+        <h2 className="font-semibold text-xl text-zinc-900 2xl:text-3xl	">
           ¡HOLA! Somos Aguas La Hilda, una empresa dedicada a la producción y
           envasado de agua baja en sodio.
         </h2>
@@ -54,6 +54,41 @@ const HeroNosotros = () => {
           <li>Responsabilidad</li>
           <li>Compromiso</li>
           <li>Calidad en el producto y servicio</li>
+        </ul>
+        <h2 className="font-semibold text-xl mt-10 mb-4 text-zinc-900 2xl:text-3xl	">
+          En nuestra planta contamos con los siguientes equipos:
+        </h2>
+        <ul className="mt-2 text-zinc-700 flex flex-col gap-6 2xl:text-2xl">
+          <li>
+            <b> Filtro de cuarzo:</b> Se utiliza para filtrar las aguas
+            primarias y eliminar cualquier tipo de partícula sólida presente en
+            el agua.
+          </li>
+          <li>
+            <b>Filtro de Carbón Activado:</b> Éste se utiliza para la
+            eliminación de cloro y compuestos orgánicos en el agua, además de
+            eliminar hasta un 95% de sabor y olor en el agua.
+          </li>
+          <li>
+            <b>Esterilizador UIE:</b> Se utiliza para eliminar cualquier
+            microorganismo mediante radiación ultravioleta + ionización de
+            plata, garantizando así la pureza del agua envasada.
+          </li>
+          <li>
+            <b>Osmosis inversa:</b> Es una tecnología de membrana que permite
+            eliminar la salinidad del agua. Se basa en un proceso de difusión a
+            través de una membrana semipermeable que facilita el paso de gases
+            disueltos y moléculas sin carga electroestática de bajo peso
+            molecular.
+          </li>
+          <li>
+            <b>Equipo de Ozono:</b> Es un desinfectante de bacterias y virus, le
+            da una duración al agua de 180 días. En el tratamiento del agua, el
+            ozono actúa como el agente oxidante natural más rápido y efectivo
+            que existe, es un poderoso bactericida, virulicida y fungicida,
+            destruye los microorganismos rompiendo por oxidación su capa
+            protectora.
+          </li>
         </ul>
       </div>
       <div className=" md:flex md:justify-between lg:gap-3 md:px-8 lg:px-16 md:mt-8  2xl:max-w-[1500px] 2xl:mx-auto  2xl:mt-14 ">
