@@ -9,7 +9,7 @@ const Footer = () => {
         </h1>
 
         <h3 className="text-white font-semibold text-base f-mplus text-center">
-          EMBOTELLADORA DE AGUA LA HILDA S.R.L
+          EMBOTELLADORA DE AGUA LA HILDA S.A.S
         </h3>
         <hr className="w-10/12 my-6" />
         <h5 className="text-blue-200 font-light text-sm f-mplus text-center px-4">

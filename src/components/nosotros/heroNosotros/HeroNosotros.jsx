@@ -8,7 +8,7 @@ import equipoLaHilda from "./equipolahilda.jpg";
 
 const HeroNosotros = () => {
   return (
-    <section className="mt-32 md:mt-24 2xl:mt-32 ">
+    <section className="mt-32 md:mt-24 2xl:mt-32">
       <div className="h-64 md:h-96 banner flex items-center">
         <h1 className="f-montserrat font-extrabold text-2xl lg:text-5xl text-center mx-auto text-white text-shadow px-3 2xl:text-6xl">
           Trayectoria, experiencia y responsabilidad.
@@ -21,7 +21,7 @@ const HeroNosotros = () => {
         </h2>
 
         <p className="text-zinc-700 mt-4 2xl:text-2xl">
-          Trabajamos diariamente para llegar a las casas de familia, comercios y
+          Trabajamos diariamente para llegar a casas de familia, comercios y
           empresas en la ciudad de Cordoba y el interior; mediante un servicio
           de distribución y atención al cliente de calidad, siendo así nuestro
           objetivo acompañar su hidratación.
@@ -31,11 +31,11 @@ const HeroNosotros = () => {
           Nuestra Mision
         </h2>
         <p className="mt-2 text-zinc-700  2xl:text-2xl">
-          Producir y vender agua baja en tanto dentro de la ciudad de Cordoba
-          como en el interior, llegando a las personas mediante un servicio
-          distribución y atención al cliente de calidad, con el fin de
+          Producir y vender agua baja en sodio tanto dentro de la ciudad de
+          Cordoba como en el interior, llegando a las personas mediante un
+          servicio distribución y atención al cliente de calidad, con el fin de
           satisfacer y acompañar su hidratación en las distintas actividades de
-          la vida diaria
+          la vida diaria.
         </p>
 
         <h2 className="font-semibold text-lg mt-6 text-zinc-900 2xl:text-3xl	">

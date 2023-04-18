@@ -60,9 +60,9 @@
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.445);
 }
 .banner {
-  background: url("./components/nosotros/heroNosotros/nosotros-dos.jpg");
+  background: url("./components/nosotros/heroNosotros/sobrenosotros.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .bannerContacto {
@@ -159,6 +159,6 @@
     background-size: cover;
   }
   .banner {
-    background-position: 50% 77%;
+    background-position: 50% 46%;
   }
 }
