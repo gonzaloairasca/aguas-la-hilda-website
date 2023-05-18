@@ -17,7 +17,7 @@ const SeDistribuidor = () => {
               distribuidores para ampliar nuestra cobertura.
             </p>
             <p className="px-3 lg:text-2xl">
-              Unite a nuestro equipo y trabaja con nosotros!
+              Unite a Aguas La Hilda y trabaja con nosotros!
             </p>
             <a
               href="https://api.whatsapp.com/send?phone=+5493515937318&text=Hola,%20quiero%20consultar%20para%20ser%20distribuidor"
