@@ -7,6 +7,7 @@ const Nosotros = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    document.title = "Aguas La Hilda | Nosotros";
     setTimeout(() => {
       setLoading(false);
     }, 200);
