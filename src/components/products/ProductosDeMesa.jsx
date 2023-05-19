@@ -13,7 +13,11 @@ const ProductosDeMesa = ({ data }) => {
           key={product.id}
         >
           <Link to={`productos/${product.ruta}`}>
-            <img src={product.img} alt={product.titulo} />
+            <img
+              src={product.img}
+              alt={product.titulo}
+              className="h-auto w-auto"
+            />
             <h3 className="text-center text-sm font-semibold lg:text-lg lg:font-bold">
               {product.titulo}
             </h3>
