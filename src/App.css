@@ -4,24 +4,20 @@
   padding: 0;
 }
 
-/* .header {
-  background-color: transparent;
-} */
-
 .portada {
-  background: url("./components/hero/fondo-portada-sm.png");
+  background: url("./components/hero/fondo-portada-sm.webp");
   background-position: top;
   background-repeat: no-repeat;
 }
 
 .portadaLg {
-  background: url("./components/hero/fondo-portada-lg.png");
+  background: url("./components/hero/fondo-portada-lg.webp");
   background-position: top;
   background-repeat: no-repeat;
 }
 
 .bg-seDistribuidor {
-  background: url("./components/seDistribuidor/fondo.png");
+  background: url("./components/seDistribuidor/fondo.webp");
   background-position: 65% 50%;
 }
 .bg-productosRetornables {
@@ -148,7 +144,7 @@
 
 @media (min-width: 768px) {
   .portada {
-    background: url("./components/hero/fondo-portada-lg.png");
+    background: url("./components/hero/fondo-portada-lg.webp");
     background-position: 35% 20%;
     background-size: 110%;
     background-repeat: no-repeat;
